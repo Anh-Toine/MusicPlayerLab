@@ -3,22 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		804BD01728DB4FFF003D9313 /* MusicEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804BD01628DB4FFF003D9313 /* MusicEngine.swift */; };
+		804BD01928DB5450003D9313 /* ButtonEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804BD01828DB5450003D9313 /* ButtonEngine.swift */; };
+		80B3A7F828E33FE600B9A3FA /* Don't Look Back In Anger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80B3A7F728E33FE600B9A3FA /* Don't Look Back In Anger.mp3 */; };
+		80B3A7FE28E3585100B9A3FA /* Miserlou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80B3A7FD28E3585100B9A3FA /* Miserlou.mp3 */; };
+		80B3A80028E3588700B9A3FA /* Down Under.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80B3A7FF28E3588600B9A3FA /* Down Under.mp3 */; };
+		80B3A80228E3589100B9A3FA /* Free Bird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80B3A80128E3589100B9A3FA /* Free Bird.mp3 */; };
+		80B3A80428E3589900B9A3FA /* Wonderwall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80B3A80328E3589900B9A3FA /* Wonderwall.mp3 */; };
 		80E7196828DA14D8004A713D /* MusicPlayerLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E7196728DA14D8004A713D /* MusicPlayerLabApp.swift */; };
 		80E7196A28DA14D8004A713D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E7196928DA14D8004A713D /* ContentView.swift */; };
 		80E7196C28DA14DA004A713D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E7196B28DA14DA004A713D /* Assets.xcassets */; };
 		80E7196F28DA14DA004A713D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E7196E28DA14DA004A713D /* Preview Assets.xcassets */; };
+		80E7197728DA1569004A713D /* SongCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E7197628DA1569004A713D /* SongCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		804BD01628DB4FFF003D9313 /* MusicEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicEngine.swift; sourceTree = "<group>"; };
+		804BD01828DB5450003D9313 /* ButtonEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonEngine.swift; sourceTree = "<group>"; };
+		80B3A7F728E33FE600B9A3FA /* Don't Look Back In Anger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Don't Look Back In Anger.mp3"; path = "../../Don't Look Back In Anger.mp3"; sourceTree = "<group>"; };
+		80B3A7FD28E3585100B9A3FA /* Miserlou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Miserlou.mp3; sourceTree = "<group>"; };
+		80B3A7FF28E3588600B9A3FA /* Down Under.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Down Under.mp3"; sourceTree = "<group>"; };
+		80B3A80128E3589100B9A3FA /* Free Bird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Free Bird.mp3"; sourceTree = "<group>"; };
+		80B3A80328E3589900B9A3FA /* Wonderwall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wonderwall.mp3; sourceTree = "<group>"; };
 		80E7196428DA14D8004A713D /* MusicPlayerLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E7196728DA14D8004A713D /* MusicPlayerLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerLabApp.swift; sourceTree = "<group>"; };
 		80E7196928DA14D8004A713D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		80E7196B28DA14DA004A713D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80E7196E28DA14DA004A713D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80E7197628DA1569004A713D /* SongCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +48,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		804BD01528DB4FDA003D9313 /* Functionality */ = {
+			isa = PBXGroup;
+			children = (
+				804BD01628DB4FFF003D9313 /* MusicEngine.swift */,
+				804BD01828DB5450003D9313 /* ButtonEngine.swift */,
+			);
+			path = Functionality;
+			sourceTree = "<group>";
+		};
 		80E7195B28DA14D8004A713D = {
 			isa = PBXGroup;
 			children = (
+				80B3A7FD28E3585100B9A3FA /* Miserlou.mp3 */,
+				80B3A7FF28E3588600B9A3FA /* Down Under.mp3 */,
+				80B3A80128E3589100B9A3FA /* Free Bird.mp3 */,
+				80B3A80328E3589900B9A3FA /* Wonderwall.mp3 */,
+				80B3A7F728E33FE600B9A3FA /* Don't Look Back In Anger.mp3 */,
 				80E7196628DA14D8004A713D /* MusicPlayerLab */,
 				80E7196528DA14D8004A713D /* Products */,
 			);
@@ -51,6 +81,8 @@
 		80E7196628DA14D8004A713D /* MusicPlayerLab */ = {
 			isa = PBXGroup;
 			children = (
+				804BD01528DB4FDA003D9313 /* Functionality */,
+				80E7197528DA1546004A713D /* Views */,
 				80E7196728DA14D8004A713D /* MusicPlayerLabApp.swift */,
 				80E7196928DA14D8004A713D /* ContentView.swift */,
 				80E7196B28DA14DA004A713D /* Assets.xcassets */,
@@ -65,6 +97,14 @@
 				80E7196E28DA14DA004A713D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80E7197528DA1546004A713D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80E7197628DA1569004A713D /* SongCard.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +143,7 @@
 				};
 			};
 			buildConfigurationList = 80E7195F28DA14D8004A713D /* Build configuration list for PBXProject "MusicPlayerLab" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -125,8 +165,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B3A7F828E33FE600B9A3FA /* Don't Look Back In Anger.mp3 in Resources */,
 				80E7196F28DA14DA004A713D /* Preview Assets.xcassets in Resources */,
+				80B3A7FE28E3585100B9A3FA /* Miserlou.mp3 in Resources */,
 				80E7196C28DA14DA004A713D /* Assets.xcassets in Resources */,
+				80B3A80228E3589100B9A3FA /* Free Bird.mp3 in Resources */,
+				80B3A80028E3588700B9A3FA /* Down Under.mp3 in Resources */,
+				80B3A80428E3589900B9A3FA /* Wonderwall.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804BD01928DB5450003D9313 /* ButtonEngine.swift in Sources */,
+				80E7197728DA1569004A713D /* SongCard.swift in Sources */,
 				80E7196A28DA14D8004A713D /* ContentView.swift in Sources */,
 				80E7196828DA14D8004A713D /* MusicPlayerLabApp.swift in Sources */,
+				804BD01728DB4FFF003D9313 /* MusicEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

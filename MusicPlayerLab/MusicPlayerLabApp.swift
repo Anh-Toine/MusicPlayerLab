@@ -7,8 +7,11 @@
 
 import SwiftUI
 
+
 @main
 struct MusicPlayerLabApp: App {
+	
+
     var body: some Scene {
         WindowGroup {
             ContentView()

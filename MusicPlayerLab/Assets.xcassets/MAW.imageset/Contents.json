@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Men At Work.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -6,21 +6,45 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+	
+	@StateObject var musicEngine: MusicEngine = MusicEngine()
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+	var body: some View {
+		VStack{
+			
+			Spacer()
+			
+			ScrollView(.horizontal, showsIndicators: false) {
+				HStack(spacing: 20) {
+					SongCard(imageText: "Dick Dale", songText: "Miserlou",artistName: "Dick Dale")
+					SongCard(imageText: "Lynyrd Skynyrd", songText: "Free Bird",artistName: "Lynyrd Skynyrd")
+					SongCard(imageText: "Oasis", songText: " Wonderwall",artistName: "Oasis")
+					SongCard(imageText: "Men At Work", songText: "Down Under",artistName: "Men At Work")
+					
+				}
+			}
+			.padding(.top)
+			
+			Spacer()
+			
+			HStack {
+				ButtonEngine(symbol: "play.circle", action: {})
+				ButtonEngine(symbol: "pause.circle", action: {})
+				ButtonEngine(symbol: "stop.circle", action: {})
+			}
+			.padding(.bottom)
+			
+			Spacer()
+			
+		}
+	}
+	
+	struct ContentView_Previews: PreviewProvider {
+		static var previews: some View {
+			ContentView()
+		}
+	}
 }
